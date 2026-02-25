@@ -1,0 +1,33 @@
+# SEAAT v2.0 - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core HTTP & API
+requests>=2.28.0
+
+# Encryption (API key protection)
+cryptography>=41.0.0
+
+# DNS lookups
+dnspython>=2.4.0
+
+# WHOIS
+python-whois>=0.8.0
+
+# Terminal colors
+colorama>=0.4.6
+
+# Rich CLI output (optional, enhances display)
+rich>=13.0.0
+
+# ─── File Analysis (optional but recommended) ──────────────────────────────
+# PE file analysis (executables)
+# pefile>=2023.2.7
+
+# Office document macro detection
+# oletools>=0.60
+
+# PDF text extraction
+# pdfminer.six>=20221105
+
+# YARA pattern matching
+# yara-python>=4.3.0
